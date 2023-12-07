@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="card-deck">
+    @foreach (var product in Model)
+    {
+        var photoPath = "~/Images/" + (product.PhotoPath ?? "default.jpg");
+
+        <div class="card m-3" style="min-width: 18rem; max-width:30.5%;">
+            <div class="card-header">
+                <h3>@product.ProductName</h3>
+            </div>
+
+            <img class="card-img-top imageThumbnail" src="@photoPath" 
+                 asp-append-version="true"/>
+                 <h6> @product.ProductDescription</h6>
+            @if (product.ProductPrice != null)
+            {
+                <h5> @product.ProductPrice  Taka</h5>
+            }
+
+            <div class="card-footer text-center">
+                <a asp-controller="home" asp-action="details" 
+                   asp-route-id="@product.Id"
+                   class="btn btn-primary m-1">View</a>
+                <a asp-action="edit" asp-controller="home"
+                   asp-route-id="@product.Id"
+                   class="btn btn-primary m-1">Edit</a>
+            </div>
+        </div>
+    }
+</div>

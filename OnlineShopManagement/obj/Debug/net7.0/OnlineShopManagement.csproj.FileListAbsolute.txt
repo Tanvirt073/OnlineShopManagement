@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\MVC\OnlineShopManagement\OnlineShopManagement\obj\Debug\net7.0\OnlineShopManagement.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\MVC\OnlineShopManagement\OnlineShopManagement\obj\Debug\net7.0\OnlineShopManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\MVC\OnlineShopManagement\OnlineShopManagement\obj\Debug\net7.0\OnlineShopManagement.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\MVC\OnlineShopManagement\OnlineShopManagement\obj\Debug\net7.0\OnlineShopManagement.AssemblyInfo.cs
+C:\Users\User\Desktop\MVC\OnlineShopManagement\OnlineShopManagement\obj\Debug\net7.0\OnlineShopManagement.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MVC\OnlineShopManagement\OnlineShopManagement\obj\Debug\net7.0\OnlineShopManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\MVC\OnlineShopManagement\OnlineShopManagement\obj\Debug\net7.0\OnlineShopManagement.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\MVC\OnlineShopManagement\OnlineShopManagement\obj\Debug\net7.0\OnlineShopManagement.RazorAssemblyInfo.cs

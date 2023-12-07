@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Not Found";
+}
+
+@if(ViewBag.ErroMessage != null)
+{
+    <h1>@ViewBag.ErrorMessage</h1>
+}
+
+else
+{
+    <h1> Not Found </h1>
+}
+
+
+<a asp-action="Index" asp-controller="Home" class="btn btn-group-sm">Click here to see all products</a>
